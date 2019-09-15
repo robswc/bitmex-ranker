@@ -5,3 +5,12 @@
     padding: 2%;
     height: 2vh;
 }
+
+.bitmex-ranker-robswc {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.bitmex-ranker-daterange {
+    padding: 1%;
+}
