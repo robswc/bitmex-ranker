@@ -1,0 +1,10 @@
+SQLAlchemy == 1.3.16
+dash == 1.12.0
+dash-core-components == 1.10.0
+dash-core-components-ppeterson == 0.43.2
+dash-daq == 0.5.0
+dash-html-components == 1.0.3
+pandas == 0.23.4
+plotly == 4.7.1
+requests == 2.22.0
+gunicorn
