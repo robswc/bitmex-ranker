@@ -1,0 +1,194 @@
+a:link {
+  text-decoration: none;
+}
+
+.announcement-bar {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: #0071bc;
+    color: white;
+    font-family: Arial, sans;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 0.8em;
+}
+
+.announcement-bar p {
+    margin-bottom: 0px;
+    padding: 0.5em;
+}
+
+.announcement-bar a {
+    color: ghostwhite;
+    text-decoration: underline;
+}
+
+.bitmex-ranker-logo {
+    height: 10vh;
+    padding: 2%;
+}
+
+.data-story-container {
+    display: flex;
+    width: 70vw;
+}
+
+.data-story-block {
+    padding: 1rem;
+    background-color: #ebf5ff;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #b3d9ff;
+    width: 24%;
+}
+
+.main-layout {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.site-header-container {
+    display: flex;
+    text-decoration: none;
+}
+
+.custom-header {
+    margin-bottom: 0px;
+}
+
+.custom-details{
+    padding-bottom: 1rem;
+}
+
+.data-story-button {
+    bottom: 1px;
+}
+
+.parameters-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.block-header {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #00000010;
+}
+
+.block-name {
+    font-size: 0.75vw;
+    font-weight: bold;
+    margin-left: -0.5rem;
+    padding-right: 0.5rem;
+}
+
+.block-rank-tag {
+    background-color: #D9DBE0;
+    color: black;
+}
+
+
+.block-bitcoin-tag {
+    background-color: #EA9633;
+    color: #00000066;
+}
+
+.block-usd-tag {
+    background-color: #52A957;
+    color: #00000066;
+}
+
+.block-wlr-tag {
+    background-color: #4792E6;
+    color: #00000066;
+}
+
+
+.block-tag {
+    /*border-radius: 1rem;*/
+    font-size: 0.75vw;
+    font-weight: 500;
+    padding-right:0.5rem;
+    padding-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.block {
+    width: 24%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    transition: all 2s;
+    padding: 1rem;
+
+}
+
+.blocks-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    flex-basis: auto;
+    transition: all 1s;
+}
+
+.leaderboard-table {
+    width: 100%;
+}
+
+.abbr-no-underline {
+    text-decoration: none;
+}
+
+.pnl-container {
+    display: flex;
+}
+
+.pnl-flat-icon {
+    color: #D9DBE0;
+}
+
+.pnl-up-icon {
+    color: #00C531;
+}
+.pnl-dn-icon {
+    color: #FF5F5F;
+}
+
+/*Media Queries*/
+
+/*Small Laptop*/
+@media (max-width: 1025px) {
+    .block {
+        width: 100%;
+    }
+    .bitmex-ranker-logo {
+        display: none;
+    }
+    .block-tag {
+        font-size: 2rem;
+    }
+    .block-name {
+        font-size: 2rem;
+    }
+    .data-story-container {
+        width: 100%;
+    }
+
+}
+
+/*Small Laptop*/
+@media only screen and (max-width: 600px) {
+    .announcement-bar {
+        font-size: 2rem;
+    }
+}

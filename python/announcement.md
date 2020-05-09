@@ -1,0 +1,1 @@
+Bitmex Ranker is an open source tool developed by [@robswc](https://www.twitter.com/robswc).  __**Bitmex Ranker has no affiliation with Bitmex.com.**__  Check out or contribute to the [project here](https://github.com/Robswc/bitmex-ranker)!
