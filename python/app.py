@@ -22,6 +22,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 user_handler = UserHandler()
 user_handler.activate_all_users()
 print('ACTIVE:', user_handler.activated_users)
+markdown_path = 'markdown/'
 
 
 def get_markdown(file):
@@ -91,7 +92,7 @@ app.layout = html.Div([
     html.Header(html.Script(src=app.get_asset_url('gtag.js'))),
 
     # Announcement Banner
-    dcc.Markdown(get_markdown('announcement.md'), className='announcement-bar'),
+    dcc.Markdown(get_markdown(markdown_path + 'announcement.md'), className='announcement-bar'),
 
     # Site Header
     html.Div([
@@ -99,7 +100,7 @@ app.layout = html.Div([
                  className='bitmex-ranker-logo'
                  ),
         html.Div([
-            dcc.Markdown(get_markdown('sitedescription.md')),
+            dcc.Markdown(get_markdown(markdown_path + 'sitedescription.md')),
             html.Details([
                 html.Summary('Data Stories'),
                 html.Div(className='data-story-container'),
@@ -202,7 +203,7 @@ app.layout = html.Div([
 
     # Questions and Answers
     html.H3('Questions and Answers'),
-    dcc.Markdown(get_markdown('questionsanswers.md')),
+    dcc.Markdown(get_markdown(markdown_path + 'questionsanswers.md')),
 
     html.P('Disclaimer: Bitmex Ranker is not associated or affiliated with Bitmex.com.'),
 
