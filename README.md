@@ -7,6 +7,8 @@
 
 # Bitmex Ranker
 
+See it in action here! http://www.robswc.me/bitmexranker
+
 Bitmex Ranker (no affiliation with Bitmex.com) is an online webapp for following, analyzing and exploring the data from the top traders found on the Bitmex Leaderboards.
 
 ---
