@@ -6,5 +6,5 @@ dash-daq == 0.5.0
 dash-html-components == 1.0.3
 pandas == 0.23.4
 plotly == 4.7.1
-requests == 2.22.0
+requests == 2.31.0
 gunicorn
